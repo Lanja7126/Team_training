@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './pages.css';
 
 const SignUp = () => {
   const [username, setUsername] = useState("");
@@ -20,7 +21,7 @@ const SignUp = () => {
   };
 
   return (
-    <div style={{ textAlign: "center", marginTop: "50px" }}>
+    <div className="container" style={{ textAlign: "center", marginTop: "50px" }}>
       <h2>Sign Up</h2>
       <form onSubmit={handleSubmit}>
         <input
@@ -28,6 +29,7 @@ const SignUp = () => {
           placeholder="Username"
           value={username}
           onChange={e => setUsername(e.target.value)}
+          className="textField"
         />
         <br />
         <input
@@ -35,6 +37,7 @@ const SignUp = () => {
           placeholder="Password"
           value={password}
           onChange={e => setPassword(e.target.value)}
+          className="textField"
         />
         <br />
         <button type="submit">Register</button>
