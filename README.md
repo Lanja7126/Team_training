@@ -13,8 +13,6 @@ Sous Linux :
 ```bash
     cd Team_training
 ```
-MSous Windows :
-
 Naviguez simplement dans le dossier Team_training via l'explorateur de fichiers ou PowerShell :
 ```bash
     cd Team_training
@@ -38,4 +36,27 @@ Sous Linux ou Windows (mêmes commandes) :
 Puis:
 ```bash
     npm install
+```
+## ▶️ Lancer l'application
+### 1️⃣ Démarrer le backend
+```bsh
+    cd ../backend
+```
+```bsh
+    npx ts-node-dev src/index.ts
+```
+➡️ Le serveur démarre généralement sur :
+```bash
+    http://localhost:5000
+```
+### 2️⃣ Démarrer le frontend
+```bash
+    cd ../frontend
+```
+```bash
+    npm run dev
+```
+➡️ L'application React démarre sur :
+```bash
+    http://localhost:5173
 ```
