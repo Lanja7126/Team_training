@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Home.css'; 
+import './Home.css';
 
 const Home: React.FC = () => {
   return (
@@ -14,7 +14,10 @@ const Home: React.FC = () => {
           cours accessibles, modernes et adaptés à tous les apprenants.
         </p>
 
+
+
         <div className="hero-actions">
+
           
           <Link to="/cours" className="btn-primary">
             Explorer les cours

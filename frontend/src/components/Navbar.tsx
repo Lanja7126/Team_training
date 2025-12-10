@@ -13,6 +13,7 @@ const Navbar: React.FC = () => {
     const handleSearchSubmit = (event: React.FormEvent) => {
         event.preventDefault(); 
         console.log('Recherche soumise!');
+    
     };
 
     return (
