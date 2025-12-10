@@ -4,7 +4,7 @@ import './pages.css';
 const SignUp = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-
+  
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {

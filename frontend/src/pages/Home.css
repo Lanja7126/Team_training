@@ -1,47 +1,99 @@
-:root {
-  --primary-color: #2c3e50;
-  --accent-color: #3498db;
-  --bg-color: #ffffff;
-  --text-color: #333;
-  --font: 'Roboto', sans-serif;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
-.Navbar {
-  display: flex;
-  align-items: center;
-  padding: 1rem 2rem;
-  background-color: var(--primary-color);
-  position: relative;
-  justify-content: space-between;
-}
-
-
-.logo a {
-  text-decoration: none;
-  color: white;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.menu ul{
-    list-style: none;
+/* Section bannière principale (Hero) */
+.home-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/XVM51842c1c-6a17-11eb-b35c-be12aef88624.webp'); 
+    background-size: cover; 
+    background-position: center;
+    color: white; 
+    padding: 100px 50px 50px; 
+    min-height: 80vh; 
+    
     display: flex;
-    align-items: center;
-    gap: 1.5rem;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-between; 
+    text-align: center;
 }
 
-.menu ul a{
-    text-decoration: none;
-    color: white;
+.hero-content {
+    max-width: 800px;
+    margin-bottom: 50px;
+
 }
+
+.hero-title {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.hero-subtitle {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.hero-actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.btn-primary {
+    background-color: #4da6ff; 
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #007bff;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 25px; 
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: white;
+    color: #343a40; 
+}
+
+.hero-stats {
+    display: flex;
+    gap: 60px; 
+    margin-top: 5px;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.stat-number {
+    font-size: 2.5em;
+    font-weight: bold;
+    color:#4da6ff;
+    margin-bottom: 5px;
+    
+}
+
+.stat-label {
+    font-size: 0.9em;
+    opacity: 0.8; 
+}
+
