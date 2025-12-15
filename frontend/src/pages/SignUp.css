@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.signup-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.left {
+  flex: 1;
+  background: linear-gradient(180deg, #1f2d3d, #2c3e50);
+  color: white;
+  padding: 60px;
+}
+
+.left h2 {
+  margin-bottom: 80px;
+}
+
+.left h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.left p {
+  opacity: 0.8;
+  margin-bottom: 30px;
+}
+
+.left ul {
+  list-style: none;
+  padding: 0;
+}
+
+.left li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.left svg {
+  color: #2ecc71;
+}
+
+.right {
+  flex: 1;
+  background-color: #f6f8fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  width: 100%;
+  max-width: 420px;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  color: #777;
+  margin-bottom: 25px;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+.btn.google {
+  background: white;
+}
+
+.btn.facebook {
+  background: #4267b2;
+  color: white;
+  border-color: #4267b2;
+}
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.divider span {
+  flex: 1;
+  height: 1px;
+  background: #ddd;
+}
+
+.divider small {
+  margin: 0 10px;
+  color: #888;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  flex: 1;
+}
+
+.btn-submit {
+  width: 100%;
+  background: #2c3e50;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius : 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
