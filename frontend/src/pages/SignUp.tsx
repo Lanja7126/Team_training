@@ -25,7 +25,7 @@ import {
         <ul>
           <li>
             <FontAwesomeIcon icon={faCheckCircle} />
-            Accès à tous les cours
+            Accè
           </li>
           <li>
             <FontAwesomeIcon icon={faCheckCircle} />
@@ -41,8 +41,6 @@ import {
           </li>
         </ul>
       </div>
-
-      {/* RIGHT */}
       <div className="right">
         <div className="card">
           <h2>Créez votre compte</h2>
