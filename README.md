@@ -1,7 +1,10 @@
 # 📂 Structure du projet
 mon-projet/
+
 │
+
 ├── backend/   → Serveur Node.js + API
+
 └── frontend/  → Application React
 
 # 🔧 Installation
